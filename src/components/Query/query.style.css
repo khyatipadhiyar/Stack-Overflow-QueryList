@@ -1,0 +1,18 @@
+.queryContainer{
+  display: grid;
+  grid-template-columns: 1fr 5fr 2fr;
+  grid-gap: 1rem;
+  background-color: #079992;
+  color: #fff;
+  margin: 10px 0 20px 0;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  cursor: pointer;
+}
+@media only screen and (max-width: 600px) {
+  .queryContainer{
+    grid-template-columns:1fr;
+  }
+  
+}
